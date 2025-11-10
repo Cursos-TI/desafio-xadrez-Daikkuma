@@ -28,5 +28,30 @@ int main() {
     // Sugestão: Implemente a movimentação do Cavalo utilizando loops com variáveis múltiplas e condições avançadas.
     // Inclua o uso de continue e break dentro dos loops.
 
+    
+        printf("Desafio de Xadrez - MateCheck\n");
+        printf("\nMovendo a Torre 5 casas para a direita:\n");
+        for (int torre = 0; torre < 5; torre++){ // variavel torre // Mover a Torre 5 casas para a direita
+            printf ("Direita\n"); // 
+
+        }
+        printf("\n");
+        printf("Movendo o Bispo 5 casas na diagonal para cima e para a direita:\n");
+        int bispo = 0; // declarando a variavel bispo
+        while (bispo < 5) {  // loop while para o Bispo se mover 5x
+            printf("Diagonal para cima e direita\n"); // direcao cima e direita 5x do Bispo
+            bispo++; 
+        }
+
+        printf("\n"); //
+        printf("Movendo a rainha 8 casas para a esquerda:\n");
+        
+        int rainha = 0; // declarando a variavel rainha
+
+        do { //loop do while para a Rainha se mover 8x
+            printf("Esquerda\n");
+            rainha++; 
+        } while (rainha < 8); //condicao do loop do while para direcao esquerda 8x da Rainha
+
     return 0;
 }
