@@ -53,5 +53,20 @@ int main() {
             rainha++; 
         } while (rainha < 8); //condicao do loop do while para direcao esquerda 8x da Rainha
 
+        printf("\nMovendo o Cavalo em L:\n");
+        int movimentoCompleto = 1; // declarando a variavel igual a 1
+        while (movimentoCompleto --) // loop while para o Cavalo se mover em L
+              { 
+                for (int cavalo = 0; cavalo < 2; cavalo++) { // loop for para o Cavalo se mover duas casas para frente
+                    printf("Cima\n"); // direcao duas casas para frente do Cavalo
+                    
+                } // fim do for
+                printf("Direita\n"); // direcao uma casa para a direita do Cavalo
+
+              } // fim do while
+
+
+
+
     return 0;
 }
